@@ -12,60 +12,74 @@
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Joshua Landi</a>
-      <!--Bootstrap Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img src="../JL-Logo.png" alt="Jl Logo" height="50px" width="80px"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Porfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+    <header id="masthead">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="index.html" id="logo">Joshua Landi</a>
+            </div>
           </div>
-        </nav>
-    </div>
-  </header>
+            <div class="col">
+            <!--Bootstrap Navbar-->
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#"><img src="../JL-Logo.png" alt="Jl Logo" height="80px" width="120px"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Porfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+      </header>
 
-  <div id="main-container" class="container">
+  <div id="main-container" class="container" class="col">
     <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Joshua Landi</label>
-            <input type="text" id="name" name="name" placeholder="Joshua Landi" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+      <div class="row">
+        <div class="col">
+          <h1>Contact</h1>
+        </div>
+      </div>
+          <form id="contact-form">
+           <ul>
+            <div class="row">
+              <div class="col">
+                <li>
+                  <label for="name">Joshua Landi</label>
+                  <input type="text" id="name" name="name" placeholder="Joshua Landi" required="required">
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required="required"></textarea>
+                </li>
+              </div>
+            </div>
+          </ul>
+            <input type="submit">
+          </form>
 
     </section>
 
   </div>
 
   <footer>
-    <div class="container">
+    <div class="container" class="col">
       Copyright &copy; 
     </div>
   </footer>
